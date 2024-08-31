@@ -1,6 +1,6 @@
 #install any package and start the server 
 - name: nginx
-  hosts: mongodb
+  hosts: localhost
   become: yes ##this will give root access
   tasks:
   - name: install nginx
