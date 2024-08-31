@@ -1,6 +1,6 @@
 ##playbook is a list of plays which is always start with -
 - name: ping the node 
-  hosts: mongodb 
+  hosts: localhost 
   ##this is the list of tasks/modules/collections
   tasks:
   - name: pinging the server 
