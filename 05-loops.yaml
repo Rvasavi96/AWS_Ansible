@@ -4,7 +4,7 @@
   tasks: 
   - name: install packages
     ansible.builtin.yum:
-      name:"{{item-name}}"
+      name:"{{item}}"
       state: installed 
     loop:
     - mailx
