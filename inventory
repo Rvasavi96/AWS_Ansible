@@ -1,7 +1,7 @@
 ##getting  list of hosts and ip addresses from inventory file
 
-879.98790.89
-889.21.324.54
+[localhost]
+818.207.144.225
 [mongodb]
 roboshop-us-dev-db-mongodb-01.joindevops.online
 
